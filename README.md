@@ -1,13 +1,9 @@
-# strands-ui-2
+# Server side rending project, with basic caching using web workers and browser cache
 
-New strands UI core version with a new stack of technologies. It includes similar options than the previous strands-ui and grunt-sf-project in a single repository.
-
-## Main features
-
-- Mobile first
-- Use of standard libraries when possible instead of custom
-- Standard build process
-
+Basic Webpack - React - Redux project, practising server side rendering using polymorphic javascript.
+Basic file caching, static and dynamic using chrome Caches api, capturing fetch from web workers.
+Uses Sass (really basic UI/UX design) mobile first approach with media queries. 
+Few tests using jest + enzyme.
 
 ## Technologies stack
 
@@ -15,8 +11,4 @@ New strands UI core version with a new stack of technologies. It includes simila
 - Redux
 - ES6+
 - Webpack
-
-
-## Known issues:
-
-https://github.com/npm/npm/issues/16830  --> Remove package-lock.json before git push and merge with develop if using npm 5 or bigger
+- Enzyme

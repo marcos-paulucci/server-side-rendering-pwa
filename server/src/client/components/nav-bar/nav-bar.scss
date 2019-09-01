@@ -1,0 +1,36 @@
+.myssr-n-navbar__wrapper {
+  z-index: 2;
+  width: 100%;
+  background-color: $panel-45;
+  // width at which the sidebar collapses
+  @include bp-extra-large {
+    // 326px is the width of .myssr-n-platform-layout__sidebar
+    width: calc(100%);
+  }
+}
+
+.myssr-n-navbar--desktop {
+  display: none;
+
+  // width at which the sidebar collapses
+  @include bp-extra-large {
+    display: block;
+  }
+}
+.myssr-n-navbar--mobile {
+  display: block;
+  font-size: 2rem;
+  @include bp-extra-large {
+    display: none;
+  }
+  .myssr-n-navbar--mobile_item {
+  }
+}
+
+.myssr-n-navbar_item {
+  &:hover {
+    background-color: $information-100;
+    color: $white;
+    cursor: pointer;
+  }
+}

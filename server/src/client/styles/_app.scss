@@ -1,0 +1,52 @@
+//
+// App
+// --------------------------------------------------
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Lato, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  background-color: $bg-neutral-3;
+}
+
+body {
+  .myssr-n-w100 {
+    width: 100%;
+  }
+  .myssr-n-h100 {
+    height: 100%;
+  }
+  .myssr-n-relative {
+    position: relative;
+  }
+  .myssr-n-absolute {
+    position: absolute;
+  }
+  .myssr-n-block {
+    display: block;
+  }
+  .myssr-n-inline-block {
+    display: inline-block;
+  }
+  a {
+    color: black;
+    text-decoration: none; /* no underline */
+  }
+  font-size: 40px;
+  @include bp-xsmall {
+    font-size: 30px;
+  }
+  @include bp-small {
+    font-size: 25px;
+  }
+  @include bp-medium {
+    font-size: 20px;
+  }
+  @include bp-large {
+    font-size: 16px;
+  }
+}

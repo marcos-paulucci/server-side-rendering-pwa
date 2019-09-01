@@ -1,0 +1,128 @@
+@import 'palette';
+
+$dir: ltr;
+$rem: 16px;
+
+//Opacity for elements
+$alpha-20: 0.2;
+$alpha-50: 0.5;
+$alpha-70: 0.7;
+
+// Font colors
+$fc-primary-40: $primary-40;
+$fc-primary-75: $primary-75;
+$fc-primary-90: $primary-90;
+$fc-primary-100: $primary-100;
+
+$fc-secondary-30: $secondary-30;
+$fc-secondary-90: $secondary-90;
+$fc-secondary-95: $secondary-95;
+$fc-secondary-100: $secondary-100;
+
+$fc-danger-75: $danger-75;
+$fc-warning-75: $warning-75;
+$fc-warning-90: $warning-90;
+
+$fc-success-40: $success-40;
+$fc-success-75: $success-75;
+$fc-success-90: $success-90;
+$fc-success-100: $success-100;
+
+$fc-neutral-0: $neutral-0;
+$fc-neutral-3: $neutral-3;
+$fc-neutral-8: $neutral-8;
+$fc-neutral-20: $neutral-20;
+$fc-neutral-30: $neutral-30;
+$fc-neutral-63: $neutral-63;
+$fc-neutral-81: $neutral-81;
+$fc-neutral-100: $neutral-100;
+$fc-black: $black;
+
+// Background colors
+
+$bg-primary-40: $primary-40;
+$bg-primary-75: $primary-75;
+$bg-primary-90: $primary-90;
+$bg-primary-100: $primary-100;
+
+$bg-secondary-30: $secondary-30;
+$bg-secondary-90: $secondary-90;
+$bg-secondary-95: $secondary-95;
+$bg-secondary-100: $secondary-100;
+
+$bg-danger-75: $danger-75;
+$bg-danger-90: $danger-90;
+$bg-danger-100: $danger-100;
+
+$bg-warning-40: $warning-40;
+$bg-warning-90: $warning-90;
+$bg-warning-100: $warning-100;
+
+$bg-success-40: $success-40;
+$bg-success-90: $success-90;
+$bg-success-100: $success-100;
+
+$bg-neutral-0: $neutral-0;
+$bg-neutral-3: $neutral-3;
+$bg-neutral-8: $neutral-8;
+$bg-neutral-20: $neutral-20;
+$bg-neutral-30: $neutral-30;
+$bg-neutral-63: $neutral-63;
+$bg-neutral-81: $neutral-81;
+$bg-neutral-100: $neutral-100;
+$bg-black: $black;
+
+$bg-good-40: $good-40;
+$bg-good-75: $good-75;
+$bg-good-90: $good-90;
+$bg-good-100: $good-100;
+
+$bg-bad-40: $bad-40;
+$bg-bad-75: $bad-75;
+$bg-bad-90: $bad-90;
+$bg-bad-100: $bad-100;
+
+// Border colors
+
+$bc-neutral-0: $neutral-0;
+$bc-neutral-8: $neutral-8;
+$bc-neutral-20: $neutral-20;
+$bc-neutral-30: $neutral-30;
+$bc-neutral-63: $neutral-63;
+$bc-black: $black;
+$bc-white: $white;
+
+$bc-primary: $primary-90;
+$bc-danger: $danger-90;
+$bc-warning: $warning-90;
+$bc-success: $success-90;
+
+// Button colors
+
+$btn-tertiary: $neutral-100;
+$btn-tertiary-focus: $neutral-0;
+$btn-tertiary-active: $neutral-0;
+
+$btn-bg-primary: $primary-90;
+$btn-bg-primary-focus: $primary-75;
+$btn-bg-primary-active: $primary-100;
+$btn-bg-primary-disabled: $primary-40;
+
+$btn-bg-secondary: $bg-secondary-95;
+$btn-bg-secondary-focus: $bg-secondary-90;
+$btn-bg-secondary-active: $bg-secondary-100;
+$btn-bg-secondary-disabled: $bg-secondary-30;
+
+$btn-bg-tertiary: $neutral-0;
+$btn-bg-tertiary-focus: $neutral-30;
+$btn-bg-tertiary-active: $neutral-63;
+
+$btn-bg-danger: $danger-90;
+$btn-bg-danger-focus: $danger-75;
+$btn-bg-danger-active: $danger-100;
+$btn-bg-danger-disabled: $danger-40;
+
+// Link colors
+
+$link-primary-hover: $primary-100;
+$link-primary-active: $primary-90;

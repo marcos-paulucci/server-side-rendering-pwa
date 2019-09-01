@@ -1,0 +1,25 @@
+{
+  "name": "myssrproject",
+  "version": "1.0.0",
+  "description": "Server side rendering plus PWA features small demo",
+  "main": "index.js",
+  "scripts": {
+    "all": "npm-run-all --parallel api server",
+    "api": "cd api && npm run start",
+    "server": "cd server && npm run all"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+"
+  },
+  "author": "marcos paulucci",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "dependencies": {
+    "concurrently": "3.5.0",
+    "npm-run-all": "4.1.1"
+  },
+  "homepage": ""
+}

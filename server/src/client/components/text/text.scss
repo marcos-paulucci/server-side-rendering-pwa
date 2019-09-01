@@ -1,0 +1,42 @@
+  .myssr-n-txt {
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  color: $fc-neutral-100;
+}
+
+.myssr-n-txt-title {
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  color: $fc-neutral-100;
+}
+
+.myssr-n-txt--truncated {
+  max-width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.myssr-n-txt--f1 {
+  font-size: rem(17px);
+}
+.myssr-n-txt--f2 {
+  font-size: rem(15px);
+}
+.myssr-n-txt--f3 {
+  font-size: rem(14px);
+}
+.myssr-n-txt--f4 {
+  font-size: rem(13px);
+}
+.myssr-n-txt--f5 {
+  font-size: rem(12px);
+}
+.myssr-n-txt--f6 {
+  font-size: rem(11px);
+}
+.myssr-n-txt--f7 {
+  font-size: rem(10px);
+}

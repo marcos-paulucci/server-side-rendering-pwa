@@ -4,6 +4,10 @@
   "description": "Server side rendering plus PWA features small demo",
   "main": "index.js",
   "scripts": {
+    "build-and-run": "npm run build-all && npm run all",
+    "build-all": "npm-run-all --parallel build-api build-server",
+    "build-server": "cd server && npm install",
+    "build-api": "cd api && npm install",
     "all": "npm-run-all --parallel api server",
     "api": "cd api && npm run start",
     "server": "cd server && npm run all"

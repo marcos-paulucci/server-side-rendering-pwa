@@ -22,7 +22,7 @@ class PeopleList extends Component {
 
   render() {
     return (
-      <Box style={{ height: '80%' }} bg="neutral-8" pa={4}>
+      <Box style={{ height: '80%' }} pa={4}>
         <Box textAlign="center" mv={6} style={{ fontSize: '2rem' }}>
           {this.props.title}
         </Box>

@@ -26,6 +26,7 @@ export default (req, store, context) => {
           window.INITIAL_STATE = ${serialize(store.getState())}
         </script>
         <script src="bundle.js"></script>
+        <script src="vendors~bundle.js"></script>
         <script>
           if ('serviceWorker' in navigator) {
             navigator.serviceWorker

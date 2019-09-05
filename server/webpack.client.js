@@ -16,6 +16,11 @@ const config = {
     filename: '[name].js',
     path: path.resolve(__dirname, 'public')
   },
+  optimization: {
+    splitChunks: {
+      chunks: 'all'
+    }
+  },
   module: {
     rules: [
       {

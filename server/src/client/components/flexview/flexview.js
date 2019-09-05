@@ -3,13 +3,13 @@ import PropTypes from 'prop-types';
 import classNames from 'classnames';
 
 /**
- * Box is a main Layout component used to create row and column components.
- * You can easily create a 12-column grid with the Box components and also add
+ * Flexview is a main Layout component used to create row and column components.
+ * You can easily create a 12-column grid with the Flexview components and also add
  * any combination of background-color, border and border radius. Thanks to being
  * decorated with [withSpacingTachyons](#withSpacingTachyons), it has spacing props
  * to manage padding and margin consistently
  */
-export class Box extends PureComponent {
+export class Flexview extends PureComponent {
   static propTypes = {
     /**
      * Number of columns on all screen widths
@@ -162,7 +162,7 @@ export class Box extends PureComponent {
       disabled,
       ...rest
     } = this.props;
-    const boxClasses = classNames({
+    const flexviewClasses = classNames({
       [`${this.props.className}`]: className,
 
       [`myssr-n-col-${xsCol}`]: xsCol,
@@ -193,11 +193,11 @@ export class Box extends PureComponent {
     const SpecificElement = tagName;
 
     return (
-      <SpecificElement className={boxClasses} {...rest}>
+      <SpecificElement className={flexviewClasses} {...rest}>
         {this.props.children}
       </SpecificElement>
     );
   }
 }
 
-export default Box;
+export default Flexview;

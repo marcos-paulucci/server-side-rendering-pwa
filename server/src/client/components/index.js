@@ -1,9 +1,9 @@
 import { withSpacingTachyons, withFontTachyons } from '../hocs';
 import { compose } from 'redux';
 
-import BoxCmpt from './box/box';
-const _Box = compose(withSpacingTachyons)(BoxCmpt);
-export { _Box as Box };
+import BoxCmpt from './flexview/flexview';
+const _Flexview = compose(withSpacingTachyons)(BoxCmpt);
+export { _Flexview as Flexview };
 
 import TextCmpt from './text/text';
 import PeopleList from './people-list/PeopleList';

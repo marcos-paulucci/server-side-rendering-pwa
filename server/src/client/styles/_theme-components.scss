@@ -2,12 +2,11 @@
 // Theme components
 // --------------------------------------------------
 
+@import 'app';
 
-@import "app";
+@import '../hocs/withFontTachyons/with-font-tachyons';
+@import '../hocs/withSpacingTachyons/with-spacing-tachyons';
 
-@import "../hocs/withFontTachyons/with-font-tachyons";
-@import "../hocs/withSpacingTachyons/with-spacing-tachyons";
-
-@import "../components/box/box";
-@import "../components/text/text";
-@import "../components/nav-bar/nav-bar";
+@import '../components/flexview/flexview';
+@import '../components/text/text';
+@import '../components/nav-bar/nav-bar';

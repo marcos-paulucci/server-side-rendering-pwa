@@ -1,6 +1,6 @@
 var CACHE_STATIC_NAME = 'static-files';
 var CACHE_DYNAMIC_NAME = 'dynamic-files';
-var STATIC_FILES = ['/', '/bundle.min.css', '/bundle.js'];
+var STATIC_FILES = ['/', '/bundle.min.css', '/bundle.js', './vendors~bundle.js'];
 var DYNAMIC_FILES_EXTENSIONS = ['.js', '.css', '.jpg', '.png', '.svg', '.ttf', '.woff', '.woff2'];
 
 // TO CACHE DYNAMIC EVENTUALLy

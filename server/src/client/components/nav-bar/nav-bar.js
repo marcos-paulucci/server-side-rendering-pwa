@@ -1,14 +1,19 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
-import { Box, Text } from '../index';
+import { Flexview, Text } from '../index';
 
 const Navbar = ({}) => {
   return (
-    <Box bg="primary-40" bb bc="neutral-30" className="myssr-n-navbar__wrapper">
+    <Flexview bg="primary-40" bb bc="neutral-30" className="myssr-n-navbar__wrapper">
       <div className="myssr-n-navbar--desktop">
-        <Box flex="row" justifyContent="around" alignItems="center">
-          <Box
+        <Flexview
+          flex="row"
+          justifyContent="around"
+          alignItems="center"
+          style={{ flexWrap: 'nowrap' }}
+        >
+          <Flexview
             className="myssr-n-navbar_item"
             brad={3}
             textAlign="center"
@@ -20,8 +25,8 @@ const Navbar = ({}) => {
             <Link to="/" style={{ display: 'block', width: '100%' }}>
               React SSR
             </Link>
-          </Box>
-          <Box
+          </Flexview>
+          <Flexview
             className="myssr-n-navbar_item"
             brad={3}
             textAlign="center"
@@ -33,8 +38,8 @@ const Navbar = ({}) => {
             <Link to="/users" style={{ display: 'block', width: '100%' }}>
               Users
             </Link>
-          </Box>
-          <Box
+          </Flexview>
+          <Flexview
             className="myssr-n-navbar_item"
             brad={3}
             textAlign="center"
@@ -46,12 +51,12 @@ const Navbar = ({}) => {
             <Link to="/admins" style={{ display: 'block', width: '100%' }}>
               Admins
             </Link>
-          </Box>
-        </Box>
+          </Flexview>
+        </Flexview>
       </div>
-      <Box className="myssr-n-navbar--mobile">
-        <Box flex="column" alignItems="center" justifyContent="between">
-          <Box
+      <Flexview className="myssr-n-navbar--mobile">
+        <Flexview flex="column" alignItems="center" justifyContent="between">
+          <Flexview
             xsCol={12}
             bc="white"
             pv={6}
@@ -62,8 +67,8 @@ const Navbar = ({}) => {
             className="myssr-n-navbar--mobile_item"
           >
             <Link to="/">React SSR</Link>
-          </Box>
-          <Box
+          </Flexview>
+          <Flexview
             xsCol={12}
             bc="white"
             ba
@@ -74,8 +79,8 @@ const Navbar = ({}) => {
             className="myssr-n-navbar--mobile_item"
           >
             <Link to="/users">Users</Link>
-          </Box>
-          <Box
+          </Flexview>
+          <Flexview
             xsCol={12}
             bc="white"
             ba
@@ -86,10 +91,10 @@ const Navbar = ({}) => {
             className="myssr-n-navbar--mobile_item"
           >
             <Link to="/admins">Admins</Link>
-          </Box>
-        </Box>
-      </Box>
-    </Box>
+          </Flexview>
+        </Flexview>
+      </Flexview>
+    </Flexview>
   );
 };
 

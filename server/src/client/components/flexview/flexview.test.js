@@ -1,9 +1,9 @@
 import React from 'react';
 import { mount } from 'enzyme';
-import { Box } from './box';
-let children = <span className="testing-box-children">this is a child</span>;
+import { Flexview } from './flexview';
+let children = <span className="testing-flexview-children">this is a child</span>;
 const mountComponent = (props = {}) => {
-  return mount(<Box {...props}>{children}</Box>);
+  return mount(<Flexview {...props}>{children}</Flexview>);
 };
 let mountedComponent;
 const mockedProps = {
@@ -26,7 +26,7 @@ const mockedProps = {
   brad: 2,
   bg: 'neutral-3',
   textAlign: 'center',
-  className: 'testing-box'
+  className: 'testing-flexview'
 };
 const classes = [
   `${mockedProps.className}`,
@@ -50,7 +50,7 @@ const classes = [
   `myssr-n-ta-${mockedProps.textAlign}`
 ];
 
-describe('<Box />', () => {
+describe('<Flexview />', () => {
   it('should be defined', () => {
     mountedComponent = mountComponent(mockedProps);
     expect(mountedComponent).toBeDefined();

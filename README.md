@@ -22,8 +22,8 @@ Few tests using jest + enzyme.
 
 ## Basic architecture
 
-- An api servers data at localhost:5000
-- The server side rendering Express api servers html according to the route, retrieving dynamically
+- An api serves data at localhost:5000
+- The server side rendering Express api serves html according to the route, retrieving dynamically
   all the redux store data needed to build the html required by that route, achieved with static routes.
 - public assets are served in public folder
 - The application works as a PWA with regards to connectity: after first load try setting network connectity
